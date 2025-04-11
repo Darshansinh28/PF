@@ -47,6 +47,9 @@ import angular from "./languages/angular.svg";
 import aws from "./languages/amazon.svg";
 import azure from "./languages/azure.svg";
 
+import concordia from "./concordia.png";
+import lj from "./lj.png";
+
 export {
   logo,
   backend,
@@ -90,4 +93,6 @@ export {
   angular,
   aws,
   azure,
+  concordia,
+  lj,
 };

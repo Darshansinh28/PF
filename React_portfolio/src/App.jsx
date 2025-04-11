@@ -10,6 +10,7 @@ import {
   Tech,
   Works,
   StarsCanvas,
+  Education,
 } from "./components";
 
 const App = () => {
@@ -21,10 +22,11 @@ const App = () => {
           <Hero />
         </div>
         <About />
+        <Education />
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
+        {/* <Feedbacks /> */}
         <div className="relative z-0">
           <Contact />
           {/* <StarsCanvas /> */}

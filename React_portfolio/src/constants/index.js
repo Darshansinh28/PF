@@ -26,6 +26,8 @@ import {
   genetec,
   ipath,
   shriominfotech,
+  concordia,
+  lj,
 } from "../assets";
 
 export const navLinks = [
@@ -252,4 +254,31 @@ const projects = [
   },
 ];
 
-export { services, experiences, testimonials, projects };
+const education = [
+  {
+    degree: "Master of Applied Computer Science",
+    institution: "Concordia University",
+    icon: concordia,
+    iconBg: "#E6DEDD",
+    date: "Sept 2023 - June 2025 (Expected)",
+    points: [
+      "GPA: 3.54/4.30",
+      "Relevant Courses: Distributed System Design, Programming and Problem Solving, Computer Networks.",
+      "Engaged in academic projects involving distributed systems, stream processing with Kafka & Flink, and full-stack development.",
+    ],
+  },
+  {
+    degree: "Bachelor of Engineering in Computer Science",
+    institution: "Gujarat Technological University",
+    icon: lj,
+    iconBg: "#E6DEDD",
+    date: "Aug 2017 - June 2021",
+    points: [
+      "GPA: 8.94/10.0",
+      "Relevant Courses: Data Structures, Programming and Problem Solving, Theory of Computation.",
+      "Completed multiple projects, including a Risk board game and system hardware simulations.",
+    ],
+  },
+];
+
+export { services, experiences, testimonials, projects, education };

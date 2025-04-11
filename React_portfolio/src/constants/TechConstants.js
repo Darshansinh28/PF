@@ -1,5 +1,4 @@
 import {
-  c,
   csharp,
   cplus,
   java,
@@ -32,10 +31,6 @@ const technologies = [
     icon: python,
   },
   {
-    name: "c",
-    icon: c,
-  },
-  {
     name: "cplus",
     icon: cplus,
   },
@@ -59,22 +54,22 @@ const technologies = [
     name: "reactjs",
     icon: reactjs,
   },
-  {
-    name: "tailwind",
-    icon: tailwind,
-  },
-  {
-    name: ".net",
-    icon: net,
-  },
-  {
-    name: ".netcore",
-    icon: netcore,
-  },
-  {
-    name: "spring",
-    icon: spring,
-  },
+  // {
+  //   name: "tailwind",
+  //   icon: tailwind,
+  // },
+  // {
+  //   name: ".net",
+  //   icon: net,
+  // },
+  // {
+  //   name: ".netcore",
+  //   icon: netcore,
+  // },
+  // {
+  //   name: "spring",
+  //   icon: spring,
+  // },
   // {
   //   name: "angular",
   //   icon: angular,
